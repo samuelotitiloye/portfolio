@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "Samuel Titiloye - Software Developer",
+    author: "Samuel Titiloye",
+    description: "Samuel Titiloye - Software Developer"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: 'black',
         theme_color: 'black',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/headshot.jpg', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

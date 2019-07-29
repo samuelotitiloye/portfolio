@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg';
 import pic03 from '../images/pic03.jpg';
-import feedback from '../images/feedback.png';
+// import feedback from '../images/feedback.png';
 
 class Main extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Techs</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <h4>Web Technology: React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, , JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas </h4>
+          <h4>Web Technology: React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas </h4>
 
           <h4>languages: JavaScript</h4>
           <h4>database: PostgreSQL</h4>
@@ -37,11 +37,11 @@ class Main extends React.Component {
           <div className="container">
           <p><a href="https://samueltitiloye.github.io/index.html"> Lift Tracker :</a> This is my biggest application to date. It is an application that allows the user to log and track their daily and weekly workouts/exercises.</p>
           <p> The user can edit and update their workouts and exercise selection and have access to a history of all their workouts. The history page has a delete feature available should there arise a need to delete a day or particular workout. </p>
-          <p><a href="https://samueltitiloye.github.io/index.html"> My Flix: </a> This App is IMDB espue. Built an App that lets the user select a movie, and explore it's genre and description. It allows the user to edit/update the Movie title and description. Using React, Redux and Redux-Sagas, and a database. This was extremely challenging because it was the first built app after learning Sagas.  </p>
+          <p><a href="https://samueltitiloye.github.io/index.html"> My Flix: </a> This App is IMDB esque. Built an App that lets the user select a movie, and explore it's genre and description. It allows the user to edit/update the Movie title and description. Using React, Redux and Redux-Sagas, and a database. This was extremely challenging because it was the first built app after learning Sagas.  </p>
           <div class="feedback">
-          <p><span className="feedbackImage"><img src={feedback} alt="feed back"/></span><a href="https://samueltitiloye.github.io/index.html"> Feedback: </a> Virtually every website/application you visit has a feedback form of some sort. Being able to replicate one and understand the ins and outs of this crucial part of user interaction was an interesting learning experience.</p>
+          <p><a href="https://samueltitiloye.github.io/index.html"> Feedback: </a> Virtually every website/application you visit has a feedback form of some sort. Being able to replicate one and understand the ins and outs of this crucial part of user interaction was an interesting learning experience.</p>
           </div>
-          <p><a href="https://samueltitiloye.github.io/index.html"> Salsa De Fuego Pizza: </a> Every one loves pizza right? Created an application for a small buisness - Salsa De Fuego - to be able to recieve orders, track and fulfill those orders as more people find about their amazing New York Style pizza with a Spanish flare.</p>
+          <p><a href="https://samueltitiloye.github.io/index.html"> Salsa De Fuego Pizza: </a> Every one loves pizza right? Created an application for a small buisness - Salsa De Fuego - to be able to receive orders, track and fulfill those orders as more people find about their amazing New York Style pizza with a Spanish flare.</p>
           <p><a href="https://calculatorvalue.herokuapp.com/"> My Task List:  </a> This was a fun project. It is a straight forward application that lets you the user input a task, attach a date to it, update when completed and delete from the task list. Creating more room for new tasks to be added. </p>
           <p><a href="https://samueltitiloye.github.io/index.html">Landing Page:  </a> This was one of my first application ever built. Learning mailChimp integration, deploying on GitHub desktop. It was a great feeling being able to show this to friends and family.</p>
           <p>  Software Development is my passion. I like how challenging and rewarding it is. I love the growth potential in logic, analytical and methodical thinking. It's just cool to write lines of code and see what it looks like on the browser.</p>
