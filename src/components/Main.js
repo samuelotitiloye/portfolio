@@ -97,7 +97,7 @@ class Main extends React.Component {
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li> */}
             <h4>Reach out to me</h4>
               <p>Email: samuelotitiloye@gmail.com</p>
-              <p>Phone: </p> <a href="tel:+1-813-296-0698">813-296-0698</a>
+              <p>Phone:<a href="tel:+1-813-296-0698">813-296-0698</a></p>
               <h5>Social Media</h5>
             <li><a href= "mailto:samuelotitiloye@gmail.com" className="fa fa-google"><span className="label"></span></a></li>
             <li><a href="https://www.linkedin.com/in/samueltitiloye/" className="icon fa-linkedin"><span className="label">linkedIn</span></a></li>
