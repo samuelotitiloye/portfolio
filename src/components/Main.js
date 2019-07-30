@@ -18,7 +18,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Techs</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <h4>Web Technology: React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas </h4>
+          <h4>Web Technology: <h6>React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas</h6></h4>
 
           <h4>languages: JavaScript</h4>
           <h4>database: PostgreSQL</h4>
