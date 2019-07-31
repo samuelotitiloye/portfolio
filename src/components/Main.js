@@ -37,7 +37,7 @@ class Main extends React.Component {
           <div className="container">
           <p><a href="https://samueltitiloye.github.io/index.html"> Lift Tracker :</a> This is my biggest application to date. It is an application that allows the user to log and track their daily and weekly workouts/exercises.</p>
           <p> The user can edit and update their workouts and exercise selection and have access to a history of all their workouts. The history page has a delete feature available should there arise a need to delete a day or particular workout. </p>
-          <p><a href="https://samueltitiloye.github.io/index.html"> My Flix: </a> This App is IMDB esque. Built an App that lets the user select a movie, and explore it's genre and description. It allows the user to edit/update the Movie title and description. Using React, Redux and Redux-Sagas, and a database. This was extremely challenging because it was the first built app after learning Sagas.  </p>
+          <p><a href="https://caesarmyflix.herokuapp.com/#/"> My Flix: </a> This App is IMDB esque. Built an App that lets the user select a movie, and explore it's genre and description. It allows the user to edit/update the Movie title and description. Using React, Redux and Redux-Sagas, and a database. This was extremely challenging because it was the first built app after learning Sagas.  </p>
           <div class="feedback">
           <p><a href="https://samueltitiloye.github.io/index.html"> Feedback: </a> Virtually every website/application you visit has a feedback form of some sort. Being able to replicate one and understand the ins and outs of this crucial part of user interaction was an interesting learning experience.</p>
           </div>
