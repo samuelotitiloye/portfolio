@@ -24,8 +24,8 @@ class Main extends React.Component {
           <h4>database: <h6>PostgreSQL</h6></h4>
           <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, JEST, postman, postico </h6></h4>
           <h4>Wish List :</h4>
-          <h6>Java</h6>
-          <ul><h6>Python</h6>
+          <ul><h6>Java</h6>
+          <h6>Python</h6>
           <h6>Amazon Web Services</h6>
           <h6>Kafka</h6>
           <h6>MongoDB</h6></ul>
