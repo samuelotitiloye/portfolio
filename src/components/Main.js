@@ -56,7 +56,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>  
           Welcome!  
-          I am software Developer based in Minneapolis, MN with a passion to build web applications that enhances human interaction and experiences. 
+          I am a software Developer based in Minneapolis, MN with a passion to build web applications that enhances human interaction and experiences. 
           When I am not coding, I can be found making luscious ambient soundscapes with my guitar and pedalboard, playing with a band, 
           at a gym lifting weights or on my bike exploring Nature in beautiful Minnesota.
           I am an active and tenacious learner, Perseverant Problem Solver, Technology Lover.
