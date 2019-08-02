@@ -20,13 +20,15 @@ class Main extends React.Component {
           <span className="image main"><img src={pic01} alt="" /></span>
           <h4>Web Technology: <h6>React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas</h6></h4>
 
-          <h4>languages: JavaScript</h4>
-          <h4>database: PostgreSQL</h4>
-          <h4>Tools: Visual Studio Code, Atom, Sublime Text, Brackets, Git, JEST, postman, postico</h4>
+          <h4>languages: <h6>JavaScript</h6></h4>
+          <h4>database: <h6>PostgreSQL</h6></h4>
+          <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, JEST, postman, postico </h6></h4>
           <h4>Wish List :</h4>
-          <ul><li>Python</li>
-          <li>Amazon Web Services</li>
-          <li>MongoDB</li></ul>
+          <h6>Java</h6>
+          <ul><h6>Python</h6>
+          <h6>Amazon Web Services</h6>
+          <h6>Kafka</h6>
+          <h6>MongoDB</h6></ul>
           {close}
         </article> 
 
@@ -55,9 +57,9 @@ class Main extends React.Component {
           <p>  
           Welcome!  
           I am software Developer based in Minneapolis, MN with a passion to build web applications that enhances human interaction and experiences. 
-          When I am not behind my laptop, I can be found making luscious ambient soundscapes with my guitar and pedalboard, playing with a band, 
+          When I am not coding, I can be found making luscious ambient soundscapes with my guitar and pedalboard, playing with a band, 
           at a gym lifting weights or on my bike exploring Nature in beautiful Minnesota.
-          Active Explorer and Learner, Perseverant Problem Solver, Technology Lover.
+          I am an active and tenacious learner, Perseverant Problem Solver, Technology Lover.
           I am curious about repeatable systematic approaches to learning and building software. 
           
           {/* Learning to code has been one of the most painful and challenging undertakings of my life, and it has also been the most rewarding.
