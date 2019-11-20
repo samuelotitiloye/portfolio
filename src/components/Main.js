@@ -21,8 +21,8 @@ class Main extends React.Component {
           <h4>Web Technology: <h6>React, React-Redux, Redux-Saga, jQuery, Node.js, Express.js, Axios, Ajax, JSON, Sinatra, HTML, CSS, Material-UI, Bootstrap, CSS-Materialize, react signature canvas</h6></h4>
 
           <h4>languages: <h6>JavaScript</h6></h4>
-          <h4>database: <h6>PostgreSQL</h6></h4>
-          <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, JEST, postman, postico </h6></h4>
+          <h4>database: <h6>PostgreSQL, MySql</h6></h4>
+          <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, postman, postico, MySql Workbench, IntelliJIDEA </h6></h4>
           <h4>Wish List :</h4>
           <ul><h6>Java</h6>
           <h6>Python</h6>
@@ -61,38 +61,12 @@ class Main extends React.Component {
           at a gym lifting weights or on my bike exploring Nature in beautiful Minnesota.
           I am an active and tenacious learner, Perseverant Problem Solver, Technology Lover.
           I am curious about repeatable systematic approaches to learning and building software. 
-          
-          {/* Learning to code has been one of the most painful and challenging undertakings of my life, and it has also been the most rewarding.
-          I've set my mind to learning as much about development as humanly possible, it makes sense to learn the language of tomorrow now.
-          Software Development changed my life,  gave me a purpose and a trajectory. I've always liked Technology, but never thought i could be technical.
-          Taking an Intro to Python Course online opened me up to a world i instantly wanted to be a part of, even though I knew nothing.
-          It's been over a year now, and i've taken that passion and curiosity to Prime Digital Academy Where i was taught full stack development. 
-          I realized immediately this was bigger than I initially thought and I have not looked back since.
-          With each challenge came the downward spiral, and with each problem solved, came the fleeting joy of victory that I've come to know now is common to all developers.  */}
           </p>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          {/* <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form> */}
+         
           <center>
           <ul className="icons">
             {/* <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
