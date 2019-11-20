@@ -22,7 +22,14 @@ class Main extends React.Component {
 
           <h4>languages: <h6>JavaScript</h6></h4>
           <h4>database: <h6>PostgreSQL, MySql</h6></h4>
-          <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, postman, postico, MySql Workbench, IntelliJIDEA </h6></h4>
+          <h4>Tools: <h6>Visual Studio Code, Atom, Sublime Text, Brackets, Git, BitBucket, JIRA, Postman, Postico, MySql Workbench, IntelliJ-IDEA </h6></h4>
+          <h4>WHAT I'M CURRENTLY LEARNING:</h4>
+          <ul><h6>Java</h6>
+          <h6>MySQL</h6>
+          <h6>Kibana</h6>
+          <h6>AWS-CloudWatch</h6>
+          <h6>Putty</h6>
+          <h6></h6></ul>
           <h4>Wish List :</h4>
           <ul><h6>Java</h6>
           <h6>Python</h6>
